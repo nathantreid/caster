@@ -16,6 +16,7 @@ class Punctuation(MergeRule):
         "semper":                           R(Key("semicolon"), rdescript="Semicolon"),        
         "quotes":                           R(Key("dquote,dquote,left"), rdescript="Quotation Marks"),
         "thin quotes":                      R(Key("apostrophe,apostrophe,left"), rdescript="Thin Quotation Marks"),               
+        "tick quotes":                      R(Key("backtick,backtick,left"), rdescript="Tick Quotation Marks"),               
         "[is] greater than":                R(Key("rangle"), rdescript="> Comparison"),
         "[is] less than":                   R(Key("langle"), rdescript="< Comparison"),
         "[is] greater [than] [or] equal [to]":  R(Key("rangle, equals"), rdescript=">= Comparison"),

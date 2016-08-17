@@ -26,14 +26,17 @@ class CommandRule(MergeRule):
     mapping = {
         "new tab [<n>]":                R(Key("c-t"), rdescript="Browser: New Tab") * Repeat(extra="n"),
         "reopen tab [<n>]":             R(Key("cs-t"), rdescript="Browser: Reopen Tab") * Repeat(extra="n"),
+        "previous tab [<n>]":                R(Key("c-t"), rdescript="Browser: Previous Tab") * Repeat(extra="n"),
         "show history":                 R(Key("c-h"), rdescript="Browser: Show History"),
         "address bar":                  R(Key("c-l"), rdescript="Browser: Address Bar"),
         "show downloads":               R(Key("c-j"), rdescript="Browser: Show Downloads"),
         "zoom in <n>":                  R(Key("c-plus/20"), rdescript="Browser: Zoom In") * Repeat(extra="n"),
         "zoom out <n>":                 R(Key("c-minus/20"), rdescript="Browser: Zoom") * Repeat(extra="n"),
+        "reset zoom":                     R(Key("c-0/20"), rdescript="Browser: Zoom Reset"),
         "super refresh":                R(Key("c-f5"), rdescript="Browser: Super Refresh"),
         "[add] bookmark":               R(Key("c-d"), rdescript="Browser: Add Bookmark"),
-        
+        "show bookmarks":               R(Key("cs-o"), rdescript="Browser: Show Bookmark"),
+
         "developer tools":              R(Key("f12"), rdescript="Browser: Developer Tools"),
         "resume":                       R(Key("f8"), rdescript="Browser: Resume"),
         "step over":                    R(Key("f10"), rdescript="Browser: Step Over"),

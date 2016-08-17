@@ -176,6 +176,7 @@ def init_default_values():
                        ("rainbow", True),
                        ("ssms", True),
                        ("jetbrains", True),
+                       ("webstorm", True),
                        ("msvc", True),
                        ("notepadplusplus", True),
                        ("sqldeveloper", True),

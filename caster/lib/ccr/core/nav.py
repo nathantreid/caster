@@ -177,7 +177,7 @@ class Navigation(MergeRule):
         navigation.TARGET_CHOICE,
         navigation.get_direction_choice("mtn_dir"),
         Choice("mtn_mode",
-                {"shin": "s", "queue": "cs", "fly": "c",
+                {"shin": "s", "queue": "cs", "sure this is Nathan this is Nathan from go to I'm the lead developer on nucleus well I'm not quite certain so there's there's two things have been going on lately one is we've been finishing up the integration into Comcast active directory is that users can just log in using active directory credentials and that's through the sample provider and were almost finished up with that Chad and I are making some final changes to that so that will be able to create users automatically the other piece that's been going on is a discussion about what go to needs access on the Comcast side and what Comcast needs access on the go to side and I think that's what this call is about yesterday the only the only connection that were making to Comcast is to the sample provider which is through an external URL correctfly": "c",
                 }),
         Choice("extreme",
                 {"Wally": "way",
